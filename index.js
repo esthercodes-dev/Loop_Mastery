@@ -1,7 +1,7 @@
-// Assignment 1: Loop Mastery
+// Loop Mastery
 
-// --- Part 1: Nested For Loops (10x10 Multiplication Table) ---
-console.log("=== Multiplication Table (Nested For Loops) ===");
+// Nested For Loops (Multiplication Table 10)
+console.log("Multiplication Table (Nested For Loops)");
 
 for (let row = 1; row <= 10; row++) {
   for (let col = 1; col <= 10; col++) {
@@ -9,8 +9,8 @@ for (let row = 1; row <= 10; row++) {
   }
 }
 
-// --- Part 2: While Loop (Table of 7) ---
-console.log("=== Table of 7 (While Loop) ===");
+// While Loop (Table 7) ---
+console.log("Table of 7 (While Loop)");
 
 let i = 1;
 while (i <= 10) {
@@ -18,8 +18,8 @@ while (i <= 10) {
   i++;
 }
 
-// --- Part 3: Nested While Loops (Tables 1 to 5) ---
-console.log("=== Tables 1 to 5 (Nested While Loops) ===");
+// Nested While Loops (Tables 1 to 5) ---
+console.log("Tables 1 to 5 (Nested While Loops)");
 
 let outer = 1;
 while (outer <= 5) {
@@ -31,12 +31,12 @@ while (outer <= 5) {
   outer++;
 }
 
-// --- Part 4: Do-While Loop (Countdown) ---
-console.log("=== Countdown (Do-While Loop) ===");
+//Part 4: Do-While Loop (Countdown)
+console.log(" Countdown (Do-While Loop)");
 
 let count = 10;
 do {
   console.log("Count: " + count);
   count--;
 } while (count > 0);
-console.log("Liftoff!");
+console.log("Done!");
